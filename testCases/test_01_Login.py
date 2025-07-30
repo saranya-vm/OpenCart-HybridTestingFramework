@@ -1,27 +1,41 @@
-import pytest
 from pageObjects.LoginPage import LoginPage
+from utilities.readData import load_login_data
+from utilities.logger import get_logger
 
-class TestLogin:
+class Test_Login:
     def test_valid_login(self, setup):
-        self.driver = setup
-        self.driver.get("https://opensource-demo.orangehrmlive.com/")
+        logger = get_logger()
+        data = load_login_data()
+        driver = setup
+        driver.get("https://opensource-demo.orangehrmlive.com/")
+        logger.info("Opened OrangeHRM login page")
 
-        login = LoginPage(self.driver)
-        login.enter_username("Admin")
-        login.enter_password("admin123")
+        login = LoginPage(driver)
+        login.enter_username(data["validUsername"])
+        logger.info(f"Entered username: {data['validUsername']}")
+
+        login.enter_password(data["validPassword"])
+        logger.info("Entered password")
+
         login.click_login()
-        assert "dashboard" in self.driver.current_url.lower(), "Login failed or not redirected to dashboard"
+        logger.info("Clicked login button")
 
+        assert "dashboard" in driver.current_url.lower(), "Login failed"
+        logger.info("Login successful")
 
     def test_invalid_login(self, setup):
-        self.driver = setup
-        self.driver.get("https://opensource-demo.orangehrmlive.com/")
+        logger = get_logger()
+        data = load_login_data()
+        driver = setup
+        driver.get("https://opensource-demo.orangehrmlive.com/")
+        logger.info("Opened OrangeHRM login page")
 
-        login = LoginPage(self.driver)
+        login = LoginPage(driver)
         login.enter_username("invalidUser")
         login.enter_password("wrongPass")
         login.click_login()
+        logger.info("Attempted invalid login")
 
         error_text = login.get_error_message()
-
         assert "Invalid credentials" in error_text, f"Unexpected error message: {error_text}"
+        logger.info("Invalid login test passed")
