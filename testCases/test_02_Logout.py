@@ -5,18 +5,10 @@ from utilities.readData import load_login_data
 from utilities.logger import get_logger
 
 class Test_Logout:
-    def test_logout(self, setup):
+    def test_logout(self, loginApp):
         logger = get_logger()
         data = load_login_data()
-        driver = setup
-        driver.get("https://opensource-demo.orangehrmlive.com/")
-        logger.info("Opened OrangeHRM login page")
-
-        # Login
-        login = LoginPage(driver)
-        login.enter_username(data["validUsername"])
-        login.enter_password(data["validPassword"])
-        login.click_login()
+        driver = loginApp
         logger.info("Logged in successfully")
 
         # Logout

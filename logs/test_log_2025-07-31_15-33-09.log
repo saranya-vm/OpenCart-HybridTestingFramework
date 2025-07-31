@@ -1,0 +1,19 @@
+2025-07-31 15:33:14,992 - INFO - Opened OrangeHRM login page
+2025-07-31 15:33:15,875 - INFO - Entered username: Admin
+2025-07-31 15:33:16,078 - INFO - Entered password
+2025-07-31 15:33:17,799 - INFO - Clicked login button
+2025-07-31 15:33:17,824 - INFO - Login successful
+2025-07-31 15:33:19,145 - INFO - Opened OrangeHRM login page
+2025-07-31 15:33:50,338 - INFO - Logged in successfully
+2025-07-31 15:33:50,986 - INFO - Clicked on profile icon
+2025-07-31 15:33:53,112 - INFO - Clicked on logout
+2025-07-31 15:33:53,129 - INFO - Logout successful
+2025-07-31 15:34:22,053 - INFO - Logged in successfully
+2025-07-31 15:34:24,034 - INFO - Navigated to PIM
+2025-07-31 15:34:25,081 - INFO - Clicked Add button
+2025-07-31 15:34:26,504 - INFO - Entered employee details
+2025-07-31 15:34:26,718 - INFO - Clicked Save button
+2025-07-31 15:34:28,133 - INFO - Employee added successfully - Toast popup detected.
+2025-07-31 15:34:49,745 - INFO - Logged in successfully
+2025-07-31 15:34:51,789 - INFO - Navigated to PIM
+2025-07-31 15:34:52,763 - INFO - Searched by Employee ID: 0418

@@ -2,5 +2,12 @@
   "validUsername": "Admin",
   "validPassword": "admin123",
   "invalidUsername": "invalidUser",
-  "invalidPassword": "wrongPass"
+  "invalidPassword": "wrongPass",
+  "employeeId": "232342",
+  "Add_Employee": {
+    "first": "sdcs",
+    "middle": "sdjchbsdc",
+    "last":"hjdsbc",
+    "emp_id": "232342"
+  }
 }

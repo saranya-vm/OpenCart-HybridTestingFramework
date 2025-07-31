@@ -1,0 +1,10 @@
+2025-07-31 14:15:04,058 - INFO - Opened OrangeHRM login page
+2025-07-31 14:15:04,996 - INFO - Entered username
+2025-07-31 14:15:05,238 - INFO - Entered password
+2025-07-31 14:15:06,973 - INFO - Clicked login button
+2025-07-31 14:15:08,645 - INFO - Navigated to PIM
+2025-07-31 14:15:09,706 - INFO - Clicked Add button
+2025-07-31 14:15:11,117 - INFO - Entered employee details
+2025-07-31 14:15:11,355 - INFO - Clicked Save button
+2025-07-31 14:15:12,772 - ERROR - Popup not found or failed to assert: assert 'Successfully Saved' in 'Success'
+ +  where 'Success' = <selenium.webdriver.remote.webelement.WebElement (session="6df34cf92103f82ebc1ca04b1eb9a72f", element="f.C138153EA774B561D1744CFA9B932DD3.d.09CB59F0620640938505D6DDAB19B8AA.e.84")>.text

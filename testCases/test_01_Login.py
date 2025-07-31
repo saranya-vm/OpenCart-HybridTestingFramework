@@ -24,6 +24,7 @@ class Test_Login:
         assert "dashboard" in driver.current_url.lower(), "Login failed"
         logger.info("Login successful")
 
+class Test_InvalidLogin:
     def test_invalid_login(self, setup):
         logger = get_logger()
         data = load_login_data()
@@ -32,8 +33,8 @@ class Test_Login:
         logger.info("Opened OrangeHRM login page")
 
         login = LoginPage(driver)
-        login.enter_username("invalidUser")
-        login.enter_password("wrongPass")
+        login.enter_username(data["invalidUsername"])
+        login.enter_password(data["invalidPassword"])
         login.click_login()
         logger.info("Attempted invalid login")
 

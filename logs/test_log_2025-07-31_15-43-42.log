@@ -1,0 +1,21 @@
+2025-07-31 15:43:48,848 - INFO - Opened OrangeHRM login page
+2025-07-31 15:43:50,066 - INFO - Entered username: Admin
+2025-07-31 15:43:50,347 - INFO - Entered password
+2025-07-31 15:43:52,335 - INFO - Clicked login button
+2025-07-31 15:43:52,355 - INFO - Login successful
+2025-07-31 15:44:12,278 - INFO - Opened OrangeHRM login page
+2025-07-31 15:44:15,023 - INFO - Attempted invalid login
+2025-07-31 15:44:15,602 - INFO - Invalid login test passed
+2025-07-31 15:44:37,058 - INFO - Logged in successfully
+2025-07-31 15:44:39,204 - INFO - Clicked on profile icon
+2025-07-31 15:44:41,818 - INFO - Clicked on logout
+2025-07-31 15:44:41,841 - INFO - Logout successful
+2025-07-31 15:45:04,733 - INFO - Logged in successfully
+2025-07-31 15:45:06,662 - INFO - Navigated to PIM
+2025-07-31 15:45:07,884 - INFO - Clicked Add button
+2025-07-31 15:45:09,475 - INFO - Entered employee details
+2025-07-31 15:45:09,752 - INFO - Clicked Save button
+2025-07-31 15:45:11,240 - INFO - Employee added successfully - Toast popup detected.
+2025-07-31 15:45:33,924 - INFO - Logged in successfully
+2025-07-31 15:45:38,010 - INFO - Navigated to PIM
+2025-07-31 15:45:39,015 - INFO - Searched by Employee ID: 0382234

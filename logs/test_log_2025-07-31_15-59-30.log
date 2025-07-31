@@ -1,0 +1,21 @@
+2025-07-31 15:59:34,820 - INFO - Opened OrangeHRM login page
+2025-07-31 15:59:35,692 - INFO - Entered username: Admin
+2025-07-31 15:59:35,895 - INFO - Entered password
+2025-07-31 15:59:37,398 - INFO - Clicked login button
+2025-07-31 15:59:37,412 - INFO - Login successful
+2025-07-31 15:59:52,942 - INFO - Opened OrangeHRM login page
+2025-07-31 15:59:55,110 - INFO - Attempted invalid login
+2025-07-31 15:59:55,512 - INFO - Invalid login test passed
+2025-07-31 16:00:12,463 - INFO - Logged in successfully
+2025-07-31 16:00:14,292 - INFO - Clicked on profile icon
+2025-07-31 16:00:16,260 - INFO - Clicked on logout
+2025-07-31 16:00:16,274 - INFO - Logout successful
+2025-07-31 16:00:32,530 - INFO - Logged in successfully
+2025-07-31 16:00:35,734 - INFO - Navigated to PIM
+2025-07-31 16:00:36,795 - INFO - Clicked Add button
+2025-07-31 16:00:37,902 - INFO - Entered employee details
+2025-07-31 16:00:38,018 - INFO - Clicked Save button
+2025-07-31 16:00:39,503 - INFO - Employee added successfully - Toast popup detected.
+2025-07-31 16:00:58,390 - INFO - Logged in successfully
+2025-07-31 16:01:01,913 - INFO - Navigated to PIM
+2025-07-31 16:01:02,597 - INFO - Searched by Employee ID: 232342

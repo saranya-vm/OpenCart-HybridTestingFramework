@@ -1,0 +1,9 @@
+2025-07-31 15:11:48,307 - INFO - Opened OrangeHRM login page
+2025-07-31 15:11:49,252 - INFO - Entered username
+2025-07-31 15:11:49,503 - INFO - Entered password
+2025-07-31 15:11:49,774 - INFO - Clicked login button
+2025-07-31 15:11:53,328 - INFO - Navigated to PIM
+2025-07-31 15:11:55,061 - INFO - Clicked Add button
+2025-07-31 15:11:56,537 - INFO - Entered employee details
+2025-07-31 15:11:56,752 - INFO - Clicked Save button
+2025-07-31 15:11:58,152 - INFO - Employee added successfully - Toast popup detected.

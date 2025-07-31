@@ -1,0 +1,18 @@
+2025-07-31 15:55:01,558 - INFO - Opened OrangeHRM login page
+2025-07-31 15:55:10,600 - INFO - Entered username: Admin
+2025-07-31 15:55:10,740 - INFO - Entered password
+2025-07-31 15:55:10,864 - INFO - Clicked login button
+2025-07-31 15:55:30,542 - INFO - Login successful
+2025-07-31 15:55:54,102 - INFO - Opened OrangeHRM login page
+2025-07-31 15:55:57,403 - INFO - Attempted invalid login
+2025-07-31 15:55:58,084 - INFO - Invalid login test passed
+2025-07-31 15:56:18,005 - INFO - Logged in successfully
+2025-07-31 15:56:22,929 - INFO - Clicked on profile icon
+2025-07-31 15:56:30,886 - INFO - Clicked on logout
+2025-07-31 15:56:30,898 - INFO - Logout successful
+2025-07-31 15:56:50,254 - INFO - Logged in successfully
+2025-07-31 15:56:56,264 - INFO - Navigated to PIM
+2025-07-31 15:56:57,968 - INFO - Clicked Add button
+2025-07-31 15:57:21,137 - INFO - Logged in successfully
+2025-07-31 15:57:25,381 - INFO - Navigated to PIM
+2025-07-31 15:57:26,630 - INFO - Searched by Employee ID: 232342
