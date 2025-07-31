@@ -1,0 +1,13 @@
+2025-07-31 12:03:37,988 - INFO - Opened OrangeHRM login page
+2025-07-31 12:03:39,014 - INFO - Entered username: Admin
+2025-07-31 12:03:39,257 - INFO - Entered password
+2025-07-31 12:03:41,128 - INFO - Clicked login button
+2025-07-31 12:03:41,149 - INFO - Login successful
+2025-07-31 12:03:58,021 - INFO - Opened OrangeHRM login page
+2025-07-31 12:03:59,507 - INFO - Attempted invalid login
+2025-07-31 12:04:01,109 - INFO - Invalid login test passed
+2025-07-31 12:04:19,050 - INFO - Opened OrangeHRM login page
+2025-07-31 12:04:22,198 - INFO - Logged in successfully
+2025-07-31 12:04:22,905 - INFO - Clicked on profile icon
+2025-07-31 12:04:25,228 - INFO - Clicked on logout
+2025-07-31 12:04:25,244 - INFO - Logout successful

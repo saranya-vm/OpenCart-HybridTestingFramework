@@ -1,13 +1,14 @@
 from pageObjects.LoginPage import LoginPage
 from utilities.readData import load_login_data
 from utilities.logger import get_logger
+from configurations import config
 
 class Test_Login:
     def test_valid_login(self, setup):
         logger = get_logger()
         data = load_login_data()
         driver = setup
-        driver.get("https://opensource-demo.orangehrmlive.com/")
+        driver.get(config.base_url)
         logger.info("Opened OrangeHRM login page")
 
         login = LoginPage(driver)
@@ -27,7 +28,7 @@ class Test_Login:
         logger = get_logger()
         data = load_login_data()
         driver = setup
-        driver.get("https://opensource-demo.orangehrmlive.com/")
+        driver.get(config.base_url)
         logger.info("Opened OrangeHRM login page")
 
         login = LoginPage(driver)

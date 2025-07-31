@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.13 (OpenCart_SelniumPy)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (OpenCart_SelniumPy)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (OpenCart_SelniumPy)" project-jdk-type="Python SDK" />
 </project>
